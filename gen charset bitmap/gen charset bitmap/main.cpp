@@ -288,7 +288,7 @@ int main()
 
 	//numberOfCharsX*sizeCharcaterX, sizeCharacterY*numberOfCharsY,
 	EasyBMP::Image img((sizeCharcaterX + spaceRightChars) * numberOfCharsX + spaceRightChars, 
-		(sizeCharacterY + spaceBottomChars) * numberOfCharsY + spaceBottomChars, "sample.bmp", colorBackground);
+		(sizeCharacterY + spaceBottomChars) * numberOfCharsY + spaceBottomChars, "charset LCD.bmp", colorBackground);
 
 	int  c = 0x00;
 
@@ -299,9 +299,7 @@ int main()
 			printChar(c, img, spaceRightChars + x * (sizeCharcaterX + spaceRightChars), spaceBottomChars + y * (sizeCharacterY + spaceBottomChars));
 			c++;
 		}
-	}
-	
+	}	
 	img.Write();
-	system("PAUSE");
 	return 0;
 }
