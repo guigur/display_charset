@@ -5,9 +5,9 @@
 #include <cmath>
 
 std::map<char, std::vector<uint8_t>> _charset;
-EasyBMP::RGBColor colorCharset(0x33, 0x33, 0x33);
-EasyBMP::RGBColor colorCharBackground(0xFF, 0xFF, 0xFF);
-EasyBMP::RGBColor colorBackground(0xf8, 0xf8, 0xf8);
+EasyBMP::RGBColor colorCharset(0x00, 0x31, 0x00);
+EasyBMP::RGBColor colorCharBackground(0x7D, 0x9E, 0x33);
+EasyBMP::RGBColor colorBackground(0x86, 0xAC, 0x34);
 
 struct point
 {
